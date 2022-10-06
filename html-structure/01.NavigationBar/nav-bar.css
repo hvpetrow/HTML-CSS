@@ -4,15 +4,15 @@ body {
     background-color: #CCCCCC;
 }
 
- ul{
+ul {
     background-color: #444;
-     text-align: center;
-     padding: 0px;
+    text-align: center;
+    padding: 0px;
     margin: 0px;
-    list-style: none; 
+    list-style: none;
 }
 
-li{
+li {
     font-size: 24px;
     line-height: 40px;
     height: 40px;
@@ -20,7 +20,7 @@ li{
     display: inline-block;
 }
 
-a{
+a {
     text-decoration: none;
     color: #ffffff;
-} 
+}
