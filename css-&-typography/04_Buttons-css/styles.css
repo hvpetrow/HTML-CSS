@@ -1,0 +1,48 @@
+@import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
+
+body {
+    background-color: rgb(252, 243, 243);
+}
+
+article{
+    margin: 50px;
+}
+
+button {
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin-right: 10px;
+    cursor:pointer;
+    outline: none;
+}
+
+.grayBtns button {
+    background-color: rgb(51, 51, 51);
+    border-color: rgb(51, 51, 51);
+    color: white;
+}
+
+a{
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    cursor:pointer;
+    outline: none;
+    background-color: rgb(51, 51, 51);
+    border-color: rgb(51, 51, 51);
+    color: white;
+}
+
+a:hover {
+    background-color: green;
+    scale: 105%;
+}
+
+
+
+i{
+    margin-right: 5px;
+    scale: 95%;
+}
