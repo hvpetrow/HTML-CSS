@@ -1,1 +1,31 @@
-/* TODO: style the html */
+@import 'https://fonts.googleapis.com/css2?family=Righteous&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Orienta&display=swap';
+
+body{
+    background-color: darkred;
+    text-align: center;
+}
+
+h1{
+    font-family: "Righteous","cursive Righteous";
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 45px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #DFBF84;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "Orienta",sans-serif;
+    line-height: 24px;
+    color: #f6f6f6;
+}
+
