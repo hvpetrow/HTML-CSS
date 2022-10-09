@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia,serif;
+}
+
+blockquote {
+   border-left: 3px solid rgb(221,221,221);
+   font-style: italic;
+   padding: 30px;
+}
+
+table *{
+padding: 5px;
+margin: 3px;
+}
+
+.rightP {
+    text-align: right;
+}
+
+.headRow {
+    background-color: rgb(68, 42, 187);
+}
+
+.darkRow {
+    background-color: rgb(184, 205, 224);
+}
