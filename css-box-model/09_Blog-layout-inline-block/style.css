@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    margin: 36px;
+    max-width: 1200px;
+}
+
+main {
+    width: 1300px;
+}
+
+article {
+    display: inline-block;
+    max-width: 60%;
+}
+
+article section img {
+    display: block;
+    max-width: 450px;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+p {
+    margin: 10px 0px;
+    line-height: 25px;
+    text-overflow: ellipsis;
+}
