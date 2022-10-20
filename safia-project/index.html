@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./styles/main.css" />
         <link rel="stylesheet" href="./styles/header.css" />
         <link rel="stylesheet" href="./styles/hero.css" />
+        <link rel="stylesheet" href="./components/button.css" />
     </head>
     <body>
         <header class="header">
@@ -44,18 +45,52 @@
             <section id="hero">
                 <div class="info">
                     <h1 class="info__title">Landing Template for Startups</h1>
-                    <div>
+                    <div class="info__wrapper">
                         <p class="info__desc">
                             Our landing page template works on all devices, so
                             you only have to set it up once and get beautiful
                             results.
                         </p>
-                        <button class="btn btn--primary">
+                        <button class="btn btn-primary">
                             Pricing and Plans
                         </button>
                     </div>
                 </div>
-                <img src="./assets/Dashboard Safia.png" alt="Home image" />
+                <img
+                    id="hero__img"
+                    src="./assets/Dashboard Safia.png"
+                    alt="Home image"
+                />
+
+                <ul class="clients" role="list">
+                    <li class="clients__item">
+                        <img
+                            src="./assets/logos/Google_2015_logo 1.png"
+                            alt="google_logo"
+                        />
+                    </li>
+                    <li class="clients__item">
+                        <img
+                            src="./assets/logos/Slack_Technologies_Logo 1.png"
+                            alt="slack_logo"
+                        />
+                    </li>
+                    <li class="clients__item">
+                        <img src="./assets/logos/Amazon_logo 1.png" alt="" />
+                    </li>
+                    <li class="clients__item">
+                        <img
+                            src="./assets/logos/Zoom_Communications_Logo 1.png"
+                            alt="zoom_logo"
+                        />
+                    </li>
+                    <li class="clients__item">
+                        <img
+                            src="./assets/logos/Netflix_2015_logo 1.png"
+                            alt="netflix_logo"
+                        />
+                    </li>
+                </ul>
             </section>
         </main>
     </body>

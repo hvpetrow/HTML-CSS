@@ -19,13 +19,20 @@
     --clr-neutral-100: #081131;
     --clr-neutral-50: #f4f7ff;
 
+    --clr-white: #ffffff;
+
     --page-px: 190px;
     --page-px-mini: 80px;
 }
 
 body {
-    background-color: #dadbdf;
+    background-color: var(--clr-neutral);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 h1 {
