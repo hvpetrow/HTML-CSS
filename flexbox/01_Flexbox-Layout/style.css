@@ -1,0 +1,43 @@
+body {
+    background-color: #eee;
+    font-family: Helvetica, sans-serif;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+header,
+main,
+aside,
+footer {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color: rgb(85, 59, 26);
+    border: 1px solid rgb(211, 200, 185);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+        0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+header {
+    padding-bottom: 80px;
+}
+
+header,
+footer {
+    flex-basis: 100%;
+}
+
+main {
+    flex: 8 1 40rem;
+}
+
+aside {
+    flex: 2 1 20rem;
+}
+
+main,
+aside {
+    padding-bottom: 250px;
+}
