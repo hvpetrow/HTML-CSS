@@ -18,6 +18,9 @@
     --clr-neutral-200: #7e8bb6;
     --clr-neutral-100: #081131;
     --clr-neutral-50: #f4f7ff;
+
+    --page-px: 190px;
+    --page-px-mini: 80px;
 }
 
 body {

@@ -1,0 +1,9 @@
+#hero {
+    background-color: var(--clr-neutral);
+    padding: 64px 0px;
+}
+
+#hero .info {
+    width: calc(100% - 2 * var(--page-px));
+    margin: 0 auto;
+}
