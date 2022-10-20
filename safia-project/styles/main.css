@@ -1,0 +1,37 @@
+:root {
+    --clr-primary: #001a57;
+    --clr-primary-800: #00308f;
+    --clr-primary-600: #0059f7;
+    --clr-primary-300: #689eff;
+    --clr-primary-100: #0059f7;
+}
+
+body {
+    background-color: #dadbdf;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 64px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+}
