@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 80vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+span {
+    border: 1px solid black;
+    text-align: center;
+    align-self: stretch;
+}
+
+.workWeek,
+.weekend {
+    flex-basis: 100%;
+}
+
+.workDay,
+.weekendDay,
+.workWeek,
+.weekend {
+    padding: 30px 10px;
+}
+
+.workDay,
+.weekendDay {
+    font-size: 12px;
+}
+
+.workDay {
+    flex: 1 1 20%;
+}
+
+.weekendDay {
+    flex: 1 1 50%;
+}
+
+.notes > span {
+    height: 40vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
