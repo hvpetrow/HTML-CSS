@@ -4,6 +4,20 @@
     --clr-primary-600: #0059f7;
     --clr-primary-300: #689eff;
     --clr-primary-100: #0059f7;
+
+    --clr-secondary: #66240a;
+    --clr-secondary-800: #c34b1e;
+    --clr-secondary-600: #f9724d;
+    --clr-secondary-300: #fbb6ab;
+    --clr-secondary-100: #fef1ef;
+
+    --clr-neutral: #070e27;
+    --clr-neutral-800: #081131;
+    --clr-neutral-600: #162044;
+    --clr-neutral-300: #4e5a85;
+    --clr-neutral-200: #7e8bb6;
+    --clr-neutral-100: #081131;
+    --clr-neutral-50: #f4f7ff;
 }
 
 body {
