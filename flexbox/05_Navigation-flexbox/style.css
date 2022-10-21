@@ -1,3 +1,24 @@
-.nav__list li a {
+body {
+    font-family: Helvetica, sans-serif;
+    max-width: 1360px;
+    margin: 50px auto;
+}
+
+#head {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head .nav__list {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 0px;
+}
+
+#head .nav__list li a {
     color: rgb(0, 153, 0);
+    text-decoration: none;
 }
