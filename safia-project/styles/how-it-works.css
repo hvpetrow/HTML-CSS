@@ -1,0 +1,27 @@
+#how-it-works .how__row {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    width: calc(100% - 2 * var(--page-px));
+    margin: 0 auto;
+}
+
+#how-it-works .how__row:not(:last-child) {
+    margin-bottom: 96px;
+}
+
+#how-it-works .how__row .row__img {
+    width: 50%;
+    max-width: 550px;
+}
+
+#how-it-works .row__text .text__title {
+    color: var(--clr-white);
+    margin-bottom: 20px;
+}
+
+#how-it-works .row__text .text__desc {
+    color: var(--clr-neutral-300);
+    font-size: 20px;
+    line-height: 32px;
+}
