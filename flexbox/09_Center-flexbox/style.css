@@ -1,8 +1,20 @@
 body {
     background-color: rgb(238, 238, 238);
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
     background-color: rgb(255, 255, 255);
+    flex-basis: 30%;
+    padding-left: 12px;
+    padding-bottom: 21px;
+    border-radius: 5px;
+    box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.35);
+}
+
+p {
+    margin-top: -7px;
 }
