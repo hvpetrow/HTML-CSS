@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 0px;
+    background-color: rgb(238, 238, 238);
+    max-width: 100%;
+    height: 100vh;
+    font-family: "Helvetica", sans-serif;
+}
+
+header {
+    flex-basis: 100%;
+    margin-bottom: 36px;
+    border-bottom: 3px solid black;
+    padding-left: 20px;
+    height: 11%;
+}
+
+section {
+    padding-left: 20px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    flex-basis: 100%;
+    padding-left: 20px;
+    margin-top: 170px;
+}
