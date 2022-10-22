@@ -1,0 +1,72 @@
+#pricing .pricing__row {
+    width: calc(100% - 2 * var(--page-px-mini));
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+#pricing .plan {
+    width: 100%;
+    background-color: var(--clr-neutral-800);
+    box-shadow: 0px 35px 45px rgba(7, 14, 39, 0.05);
+    border-radius: 16px;
+    padding: 48px;
+}
+
+#pricing .plan.plan--promoted .plan__cta {
+    background-color: var(--clr-neutral-700);
+    color: var(--clr-white);
+}
+
+#pricing .plan.plan--promoted .plan__cta:hover {
+    color: var(--clr-neutral-700);
+    background-color: var(--clr-white);
+}
+
+#pricing .plan.plan--promoted {
+    margin-bottom: 64px;
+    background-color: var(--clr-neutral-600);
+}
+
+#pricing .plan .plan__name {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--clr-neutral-300);
+    margin-bottom: 12px;
+}
+
+#pricing .plan .plan__price {
+    font-size: 56px;
+    line-height: 64px;
+    color: var(--clr-white);
+    margin-bottom: 48px;
+}
+
+#pricing .plan .plan__price .sign {
+    color: var(--clr-neutral-300);
+}
+
+#pricing .plan .plan__divider {
+    height: 2px;
+    background-color: var(--clr-neutral-300);
+    margin-bottom: 48px;
+}
+
+#pricing .plan .feautures {
+    margin-bottom: 48px;
+}
+
+#pricing .plan .feautures .feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#pricing .plan .feautures .feature:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+#pricing .plan .feautures .feature .feature__text {
+    color: var(--clr-white);
+}
