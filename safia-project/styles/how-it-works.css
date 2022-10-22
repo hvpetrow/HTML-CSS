@@ -17,6 +17,7 @@
 }
 
 #how-it-works .how__row .row__img:hover {
+    transform-origin: bottom left;
     transform: scale(1.1) rotate(-10deg);
 }
 
