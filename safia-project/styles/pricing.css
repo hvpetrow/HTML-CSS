@@ -15,12 +15,12 @@
 }
 
 #pricing .plan.plan--promoted .plan__cta {
-    background-color: var(--clr-neutral-700);
+    background-color: var(--clr-neutral-300);
     color: var(--clr-white);
 }
 
 #pricing .plan.plan--promoted .plan__cta:hover {
-    color: var(--clr-neutral-700);
+    color: var(--clr-neutral-600);
     background-color: var(--clr-white);
 }
 

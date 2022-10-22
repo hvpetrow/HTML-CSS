@@ -27,7 +27,7 @@
 
 body {
     background-color: var(--clr-neutral);
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", sans-serif;
 }
 
 /* Typography */
