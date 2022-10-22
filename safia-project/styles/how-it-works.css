@@ -13,6 +13,7 @@
 #how-it-works .how__row .row__img {
     width: 50%;
     max-width: 550px;
+    transition: all 300ms ease-in-out;
 }
 
 #how-it-works .how__row .row__img:hover {
