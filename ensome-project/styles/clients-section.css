@@ -1,0 +1,14 @@
+#clients .benefits .benefit {
+    background-color: var(--clr-white);
+    padding: 46px 35px;
+}
+
+#clients .benefits .benefit__title {
+    font-size: 22px;
+    padding: 46px 35px;
+    color: var(--clr-black);
+}
+
+#clients .benefits .benefit__desc {
+    color: var(--clr-grey);
+}
