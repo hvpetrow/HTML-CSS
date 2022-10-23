@@ -1,2 +1,17 @@
 @import url("./reset.css");
+@import url("./variables.css");
 @import url("./clients-section.css");
+
+body {
+    background-color: var(--clr-bg);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section--full {
+}
+
+.section--narrrow {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
