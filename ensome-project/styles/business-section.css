@@ -1,5 +1,5 @@
 #business {
-    padding: 48px 24px;
+    padding: 100px 50px;
 }
 
 #business .content,
@@ -12,7 +12,6 @@
     justify-content: center;
     align-items: center;
     gap: 95px;
-
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
@@ -42,17 +41,108 @@
     cursor: pointer;
 }
 
-#business .content .row__img__wrapper {
+#business .business__row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#business .business__row:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+#business .business__row:nth-child(even) .row__img {
+    left: unset;
+    right: 0px;
+}
+
+@media screen and (max-width: 1600px) {
+    #business .row__img__wrapper {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #business .row__img__wrapper {
+        height: 100%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #business .business__row:not(:last-child) {
+        margin-bottom: 60px;
+    }
+
+    #business .business__row {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #business .content .content__title {
+        font-size: 32px;
+    }
+
+    #business .content .content__desc {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #business .content .content__title {
+        font-size: 28px;
+    }
+
+    #business .content .content__desc {
+        font-size: 16px;
+    }
+
+    #business .business__row {
+        gap: 40px;
+    }
+
+    #business .content {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #business .business__row {
+        flex-direction: column;
+    }
+    #business .business__row:not(:last-child) {
+        margin-bottom: 80px;
+    }
+    #business .business__row:nth-child(even) {
+        flex-direction: column;
+    }
+    #business .content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #business .row__img__wrapper {
+        width: 70%;
+    }
+    #business .content .content__title {
+        font-size: 28px;
+    }
+
+    #business .content .content__desc {
+        font-size: 16px;
+    }
+}
+
+/* #business .row__img__wrapper {
     height: 590px;
     background: grey;
     position: relative;
 }
 
-#business .content .row__img__wrapper .row__img {
+#business .row__img__wrapper .row__img {
     max-width: unset;
     width: unset;
     height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
-}
+} */
