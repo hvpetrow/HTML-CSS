@@ -1,0 +1,30 @@
+#login {
+    max-width: 450px;
+    width: 75%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin: 50px auto;
+    border: 1px solid rgb(56, 51, 51);
+}
+
+#login .login__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#login .form__username,
+#login .form__password {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+#login .login__btn {
+    width: 75px;
+    color: white;
+    background-color: rgb(37, 34, 34);
+    padding: 3px 10px;
+}
