@@ -1,0 +1,55 @@
+.body {
+    background-color: rgb(252, 252, 252);
+}
+
+.section {
+    max-width: 1080px;
+    margin: 20px auto;
+}
+
+#header {
+    margin-bottom: 80px;
+}
+
+#header #head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header #head .content-wrapper {
+    width: 270px;
+}
+
+#header #head .content-wrapper .head__title {
+    color: rgb(131, 0, 128);
+    font-size: 42px;
+}
+
+#header #head .content-wrapper .head__p {
+    color: rgb(54, 53, 54);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#header .nav .nav__list {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    color: black;
+}
+
+#header .nav .nav__list .list__item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+#main #site__intro .intro__content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 0px auto;
+}
