@@ -21,10 +21,13 @@ body {
 
 .header {
     position: sticky;
+    top: 0px;
+    left: 0px;
     z-index: 100;
     display: flex;
     justify-content: space-between;
     pad: 0.5rem 2rem;
+    background-color: var(--clr-white);
 }
 
 .header .logo {
@@ -110,7 +113,7 @@ body {
     font-size: 19px;
 }
 
-section.section--full {
+.section--full {
     padding: 6rem 4rem;
 }
 
@@ -170,4 +173,60 @@ section.section--full {
 #advantages .section-grid-item .desc {
     color: var(--clr-grey-text);
     font-size: 20px;
+}
+
+/* Subscribe */
+
+#subscribe {
+    background-color: var(--clr-white);
+    text-align: center;
+}
+
+#subscribe .title {
+    font-size: 42px;
+}
+
+#subscribe .desc {
+    font-size: 42px;
+    color: var(--clr-grey-text);
+    margin-bottom: 2rem;
+}
+
+#subscribe .btn {
+    border: none;
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    padding: 1rem 3.5rem;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: var(--clr-green);
+    color: var(--clr-green-text);
+}
+
+#footer .resources {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footer .resources .resource {
+    padding: 0 1rem;
+}
+
+#footer .resources .divider {
+    height: 27px;
+    width: 2px;
+    background-color: var(--clr-green-link);
+}
+
+#footer a {
+    color: var(--clr-green-link);
+    text-decoration: none;
+    font-size: 18px;
 }
