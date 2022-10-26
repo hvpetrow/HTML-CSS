@@ -4,7 +4,7 @@
 :root {
     --clr-primary: #e24e2a;
     --clr-grey: #ececec;
-    --clr-grey-dark: #3f3f3f;
+    --clr-grey-dark: #1d1d1d;
     --clr-grey-text: #5d5954;
     --clr-green: #1b9772;
     --clr-green-text: #3aa483;
@@ -108,4 +108,66 @@ body {
     color: var(--clr-white);
     line-height: 1.5;
     font-size: 19px;
+}
+
+section.section--full {
+    padding: 6rem 4rem;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.section-grid .section-grid-item {
+    text-align: center;
+}
+
+#features {
+    background-color: var(--clr-grey-dark);
+    color: var(--clr-white);
+}
+
+#features .section-grid-item .icon-container {
+    padding: 1.5rem;
+    background-color: var(--clr-primary);
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+#features .section-grid-item .icon-container i {
+    font-size: 48px;
+}
+
+#features .section-grid-item .title {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#features .section-grid-item .divider {
+    height: 1px;
+    background-color: var(--clr-grey-text);
+    margin-bottom: 1rem;
+}
+
+#features .section-grid-item .desc {
+    color: var(--clr-grey-text);
+    font-size: 20px;
+}
+
+/* Advantages */
+#advantages {
+    background-color: var(--clr-grey-dark);
+    color: var(--clr-white);
+}
+
+#advantages .section-grid-item .title {
+    margin-bottom: 2rem;
+}
+
+#advantages .section-grid-item .desc {
+    color: var(--clr-grey-text);
+    font-size: 20px;
 }
