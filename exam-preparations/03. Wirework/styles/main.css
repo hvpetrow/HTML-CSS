@@ -2,8 +2,51 @@
 @import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
 
 :root {
+    --clr-primary: #e24e2a;
+    --clr-grey: #ececec;
+    --clr-grey-dark: #3f3f3f;
+    --clr-grey-text: #5d5954;
+    --clr-green: #1b9772;
+    --clr-green-text: #3aa483;
+    --clr-green-link: #8ec2aa;
+    --clr-white: #fff;
 }
 
 body {
     font-family: Helvetica, sans-serif;
+    color: var(--clr-grey-dark);
+}
+
+.header {
+    position: sticky;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pad: 0.5rem 2rem;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.header .logo .main {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 1;
+}
+
+.header .logo .divider {
+    width: 1px;
+    height: 50px;
+    background-color: var(--clr-grey-dark);
+    display: inline-block;
+}
+
+.header .logo .main .sub {
+    font-size: 21px;
+    line-height: 1;
 }
