@@ -1,0 +1,54 @@
+@media screen and (max-width: 600px) {
+    main .left-to-right:first-child {
+        height: 500px;
+    }
+
+    main .left-to-right article {
+        border-radius: 25%;
+        width: 82%;
+        height: 35%;
+        padding: 120px 39px 120px 39px;
+    }
+
+    main .left-to-right article header h1 {
+        font-size: 2rem;
+    }
+
+    main .left-to-right article header p {
+        font-size: unset;
+    }
+
+    main .left-to-right article p {
+        font-size: 14px;
+    }
+
+    main .left-to-right article button {
+        display: none;
+    }
+
+    main section:nth-child(2),
+    main section:nth-child(4) {
+        display: block;
+    }
+
+    main section:nth-child(2) button {
+        display: none;
+    }
+
+    main section.left-to-right:nth-child(3) {
+        height: 500px;
+    }
+
+    main section:nth-child(4) article {
+        margin-left: 12%;
+    }
+
+    body
+        > main
+        > section:nth-child(4)
+        > article:nth-child(1)
+        > form
+        > label:nth-child(4) {
+        margin-left: 130px;
+    }
+}
