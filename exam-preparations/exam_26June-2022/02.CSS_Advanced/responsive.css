@@ -43,6 +43,10 @@
         margin-left: 12%;
     }
 
+    header h1 {
+        font-size: 2rem;
+    }
+
     body
         > main
         > section:nth-child(4)
