@@ -1,20 +1,31 @@
 .enterprise {
-    /* background-color: #f6f8f9; */
-    max-width: 1820px;
-    background-color: #80c2e2;
-    margin: 0 auto;
-    padding: 6rem 5rem;
+    background-color: #f6f8f9;
+    max-width: 1360px;
+    font-family: Helvetica, sans-serif;
+    margin: 50px auto;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.enterprise .sub-title {
+.enterprise .info {
+    width: 50%;
+    margin-top: 15px;
+}
+
+.sub-title {
+    font-weight: bold;
 }
 
 .enterprise .title {
     font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
 }
 
 .enterprise .desc {
     font-size: 32px;
+    line-height: 1.7;
 }
 
 .enterprise .btn {
@@ -31,4 +42,9 @@
 
 .enterprise .secondary.btn {
     background-color: transparent;
+}
+
+.enterprise .img {
+    position: relative;
+    top: 64px;
 }
