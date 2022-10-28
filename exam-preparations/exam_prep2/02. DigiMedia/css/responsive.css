@@ -1,1 +1,82 @@
 /* TODO: Add responsive styles here... */
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        text-align: center;
+        display: block;
+        margin-left: 39px;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: none;
+        margin: 0 auto;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero h1 {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .hero p {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .hero-btns {
+        margin-bottom: 350px;
+        display: flex;
+        flex-direction: column;
+        width: 53%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+
+    .hero-btns a:first-child,
+    .hero-btns a:last-child {
+        padding: 17px 42px;
+    }
+
+    .services {
+        padding: 0px;
+    }
+
+    .about {
+        margin-bottom: 50px;
+    }
+
+    .col-12.col-sm-12.col-lg-4.service-txt {
+        text-align: center;
+    }
+
+    .col-12.col-sm-12.col-lg-6 {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .col-12 {
+        text-align: center;
+    }
+
+    .hero-btns.contact-btn {
+        display: none;
+    }
+
+    footer .container .row .col-12 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-nav {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    footer h6 {
+        padding-bottom: 10px;
+    }
+}
