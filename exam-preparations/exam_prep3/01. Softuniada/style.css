@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700;800;900&family=PT+Sans:wght@400;700&family=Poppins:wght@300;400&display=swap");
+@import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.info-section {
+    max-width: 1360px;
+    margin: 30px auto;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.head {
+    background-color: #ffa200;
+    color: white;
+    padding: 1rem 1.4rem;
+}
+
+.head i,
+.head p {
+    display: inline-block;
+}
+
+.head p {
+    font-weight: bold;
+}
+
+.head i {
+    font-size: 24px;
+    margin-right: 1rem;
+}
+
+.time {
+    color: #989899;
+}
+
+.content {
+    padding: 1.5rem;
+}
+
+.content .time {
+    margin-bottom: 0.5rem;
+}
+
+.content .title {
+    margin-bottom: 1.5rem;
+    font-size: 22px;
+}
+
+.content .info {
+    margin-bottom: 3rem;
+    font-size: 18px;
+}
+
+.content.first {
+    border-bottom: 1px solid #b8b8b9;
+}
