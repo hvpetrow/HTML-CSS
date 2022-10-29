@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) {
+    .main-head {
+        margin-bottom: 2rem;
+    }
+
+    .hero-head {
+        background-color: black;
+    }
+
+    .wrapper {
+        max-width: 600px;
+    }
+
+    nav.main-nav {
+        display: none;
+    }
+
+    .hero-head {
+        background-image: unset;
+    }
+
+    .hero-head h1 {
+        text-align: center;
+        line-height: 2;
+        max-width: 90%;
+        margin: 40px auto 20px auto;
+        float: unset;
+        font-size: 46px;
+    }
+
+    .hero-head .goal {
+        float: unset;
+        text-align: center;
+        line-height: 2;
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 22px;
+    }
+
+    .content-wrap {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-wrap.two-col {
+        margin-top: 10px;
+    }
+
+    .button {
+        width: 90%;
+    }
+
+    .sponsors .module-text {
+        max-width: 63%;
+        margin: 30px auto 30px auto;
+    }
+
+    .main-foot address {
+        margin-top: 36px;
+    }
+
+    .main-foot .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-foot .bottom .copyright {
+        float: unset;
+    }
+
+    .main-foot h4 {
+        margin: 0px 0 25px;
+    }
+}
