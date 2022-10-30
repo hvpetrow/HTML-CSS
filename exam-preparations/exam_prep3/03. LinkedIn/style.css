@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700;800;900&family=PT+Sans:wght@400;700&family=Poppins:wght@300;400&family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-left: 30px;
+}
+
+.head {
+    position: relative;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.head .logo img {
+    width: 120px;
+    height: 30px;
+}
+
+.head .nav {
+    margin-right: 30px;
+    width: 33%;
+}
+
+.head .nav button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.head .nav .nav-btn {
+    background-color: transparent;
+    color: #686c6f;
+    border: none;
+    margin-right: 8px;
+}
+
+.head .nav .nav-btn-active {
+    background-color: transparent;
+    color: #1766c2;
+    border: 1px solid #1766c2;
+    border-radius: 30px;
+    padding: 1px 15px;
+}
+
+#login {
+    position: relative;
+}
+
+#login .content {
+    width: 60%;
+    padding-right: 30px;
+}
+
+#login .title {
+    color: #1766c2;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+#login input {
+    padding-right: 30px;
+}
+
+#login .content .email,
+#login .content .password {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#login .content .password span {
+    position: absolute;
+    right: 30%;
+    top: 5px;
+    color: #6c6f73;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#login .content .forgot {
+    color: #898c8e;
+    margin-bottom: 10px;
+}
+
+#login .content .btn {
+    background-color: #1766c2;
+    color: white;
+    width: 72%;
+    border-radius: 15px;
+}
+
+#login .login-img {
+    width: 50%;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    z-index: 100;
+}
+
+#jobs {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #faf9f7;
+}
+
+#jobs .title {
+    font-size: 20px;
+    margin-right: 35px;
+}
+
+#jobs .jobs-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jobs .searches {
+    margin-right: 50px;
+}
+
+#jobs .searches h6 {
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+#jobs .search-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 0px;
+}
+
+#jobs .search-list li {
+    background-color: #c3c6c7;
+    border-radius: 15px;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+
+#post-job {
+    display: flex;
+    gap: 70px;
+    background-color: #f1ece5;
+    padding: 50px;
+    padding-left: 30px;
+}
+
+#post-job h3 {
+    font-size: 20px;
+    width: 50%;
+}
+
+#post-job .btn-wrapper {
+    width: 50%;
+}
+
+#post-job button {
+    border-radius: 20px;
+    padding: 3px 10px;
+    background-color: transparent;
+}
+
+#how-work {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #faf9f7;
+}
+
+#how-work .content {
+    width: 50%;
+}
+
+#how-work .img-wrapper {
+    width: 45%;
+}

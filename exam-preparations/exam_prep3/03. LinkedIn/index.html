@@ -5,6 +5,85 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>LinkedIn</title>
+        <link rel="stylesheet" href="../reset.css" />
+        <link rel="stylesheet" href="style.css" />
     </head>
-    <body></body>
+    <body>
+        <header class="head">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="logo" />
+            </div>
+            <nav class="nav">
+                <button class="nav-btn">Join now</button>
+                <button class="nav-btn-active">Sign in</button>
+            </nav>
+        </header>
+        <main>
+            <section id="login" class="section">
+                <div class="content">
+                    <h2 class="title">
+                        Welcome to your professional community
+                    </h2>
+                    <form>
+                        <div class="email">
+                            <label for="email"></label>
+                            <input
+                                id="email"
+                                type="text"
+                                placeholder="Email or phone number"
+                            />
+                        </div>
+                        <div class="password">
+                            <label for="password"></label>
+                            <input
+                                id="password"
+                                type="password"
+                                placeholder="Password"
+                            />
+                            <span>Show</span>
+                        </div>
+                        <p class="forgot">Forgot password?</p>
+                        <button class="btn">Sign in</button>
+                    </form>
+                </div>
+                <div class="login-img">
+                    <img src="./images/header-bg.svg" alt="" />
+                </div>
+            </section>
+        </main>
+        <section id="jobs" class="section">
+            <div class="jobs-content">
+                <h2 class="title">Find open jobs and internships</h2>
+                <div class="searches">
+                    <h6>SUGGESTED SEARCHES</h6>
+                    <ul class="search-list">
+                        <li>Engineering</li>
+                        <li>Business Development</li>
+                        <li>Finance</li>
+                        <li>Marketing</li>
+                        <li>Human Resources</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="post-job" class="section">
+            <h3>Post your job and find the people you need</h3>
+            <div class="btn-wrapper">
+                <button>Post a job</button>
+            </div>
+        </section>
+        <section id="how-work" class="section">
+            <div class="content">
+                <h3>Let the right people know you’re open to work</h3>
+                <p>
+                    With the Open To Work feature, you can privately tell
+                    recruiters or publicly share with the LinkedIn community
+                    that you are looking for new job opportunities
+                </p>
+            </div>
+            <div class="img-wrapper">
+                <img src="./images/open-to-work.png" alt="" />
+            </div>
+        </section>
+    </body>
 </html>
